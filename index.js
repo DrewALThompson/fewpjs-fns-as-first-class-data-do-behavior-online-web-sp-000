@@ -11,6 +11,6 @@ function handleClick(e) {
 
 function greet(string){
   displayMessage(string);
-  }
+  } 
 };
 /* Write your implementation of displayMessage() */
