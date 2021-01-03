@@ -13,7 +13,12 @@ function greet(string){
   displayMessage(string);
 };
 function displayMessage(string) {
-  if (parseInt(string.split[0]) > 12) {
-    return "Good Morning"
-  } else if {}t
-}
+  number = (parseInt(string.split[0])
+  if number > 12) {
+    return "Good Morning";
+  } else if ( number > 12 && number < 17) {
+    return "Good Afternoon"
+  } else {
+    return "Good Night"
+  };
+};
