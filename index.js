@@ -15,7 +15,7 @@ function greet(string) {
     return "Good Morning";
   } else if ( number > 12 && number < 17) {
     return "Good Afternoon"
-  } else if ( number > 17 {
+  } else if ( number > 17) {
     return "Good Evening"
   } else {
     return "Test"
