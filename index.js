@@ -20,6 +20,5 @@ function greet(string) {
   };
 };
 function displayMessage(string){
-  document.querySelector('h1#greeting'
-    (greet(string);
+  document.querySelector('h1#greeting').innerHTML = (greet(string));
 };
