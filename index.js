@@ -11,6 +11,9 @@ function handleClick(e) {
 
 function greet(string){
   displayMessage(string);
-  } 
 };
-/* Write your implementation of displayMessage() */
+function displayMessage(string) {
+  if (parseInt(string.split[0]) > 12) {
+    return "Good Morning"
+  } else if {}t
+}
