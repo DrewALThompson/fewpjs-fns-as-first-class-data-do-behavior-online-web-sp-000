@@ -12,9 +12,9 @@ function handleClick(e) {
 function greet(string){
   displayMessage(string);
 };
+
 function displayMessage(string) {
   number = (parseInt(string).split[0]);
-  console.log(number);
   if (number < 12) {
     return "Good Morning";
   } else if ( number > 12 && number < 17) {
