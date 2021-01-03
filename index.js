@@ -20,6 +20,5 @@ function greet(string) {
   };
 };
 function displayMessage(string){
-  let greeting = greet(string);
-  document.querySelector('h1#greeting').innerHTML = greeting
+  document.querySelector('h1#greeting').innerHTML = string
 };
