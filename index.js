@@ -9,11 +9,11 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greet(string){
-  displayMessage(string);
+function displayMessage(string){
+  greet(string);
 };
 
-function displayMessage(string) {
+function greet(string) {
   if (number < 12) {
     return "Good Morning";
   } else if ( number > 12 && number < 17) {
