@@ -9,11 +9,8 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function displayMessage(string){
-  greet(string);
-};
-
 function greet(string) {
+  let number = parseInt((string.split(":"))[0]);
   if (number < 12) {
     return "Good Morning";
   } else if ( number > 12 && number < 17) {
@@ -21,4 +18,7 @@ function greet(string) {
   } else {
     return "Good Night"
   };
+};
+function displayMessage(string){
+  greet(string);
 };
