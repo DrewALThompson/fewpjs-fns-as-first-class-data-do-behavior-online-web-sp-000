@@ -14,8 +14,6 @@ function greet(string){
 };
 
 function displayMessage(string) {
-  let nowTime = string.split(':');
-  let number = parseInt(nowTime[0]);
   if (number < 12) {
     return "Good Morning";
   } else if ( number > 12 && number < 17) {
