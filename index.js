@@ -20,5 +20,6 @@ function greet(string) {
   };
 };
 function displayMessage(string){
-  document.body(greet(string);
+  document.querySelector('h1#greeting'
+    (greet(string);
 };
