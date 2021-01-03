@@ -20,5 +20,5 @@ function greet(string) {
   };
 };
 function displayMessage(string){
-  greet(string);
+  document.body(greet(string);
 };
