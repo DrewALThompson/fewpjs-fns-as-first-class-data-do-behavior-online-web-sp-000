@@ -10,6 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(string){
-  if string.to
+  if parseInt(string) > 12 {
+    
+  }
 };
 /* Write your implementation of displayMessage() */
